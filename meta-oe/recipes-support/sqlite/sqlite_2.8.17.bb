@@ -7,6 +7,8 @@ LIC_FILES_CHKSUM = "file://src/main.c;beginline=1;endline=10;md5=e98469a8efa024a
 
 PR = "r7"
 
+MIRRORS += "https://storage.googleapis.com/oaklabs-public/sqlite-${PV}.tar.gz"
+
 SRC_URI = "http://www.hwaci.com/sw/sqlite/sqlite-${PV}.tar.gz \
            file://mainmk_build_dynamic.patch \
            file://mainmk_no_tcl.patch \
